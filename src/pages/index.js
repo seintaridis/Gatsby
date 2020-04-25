@@ -1,21 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Dimitrios Seintaridis</h1>
-    <p>Personal site</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+const Index = () => {
+  return (
+    <Layout>
+    <h1>Home page</h1>
+    <h2>I'm Ibas, a teacher and a Gatsby.js developer</h2>
   </Layout>
-)
+  )
+}
 
-export default IndexPage
+export default Index

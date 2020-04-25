@@ -1,8 +1,13 @@
 import React from "react"
-const AboutPage = () => (
-    <main>
-        <h1>About the Author</h1>
-        <p>Welcome to my Gatsby site.</p>
-    </main>
-)
-export default AboutPage
+import Layout from "../components/layout"
+
+const About = () => {
+  return (
+    
+      <Layout><h1>About Page</h1>
+      <p>Ibas is a web developer, teacher and a creative writer.</p></Layout>
+  
+  )
+}
+
+export default About
