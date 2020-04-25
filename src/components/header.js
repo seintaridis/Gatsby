@@ -8,7 +8,7 @@ const Header = () => {
       <div className={headerStyles.overlay}>
       <div className={headerStyles.heroContent}>
         <p className={headerStyles.brand}>
-          <Link to="/">Ibas Majid</Link>
+          <Link to="/">Dimitrios Seintaridis</Link>
         </p>
         <p className={headerStyles.description}>
           I teach JavaScript, React, GraphQL and Gatsby
