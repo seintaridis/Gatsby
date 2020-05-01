@@ -45,11 +45,11 @@ const Header = () => {
       Contact
     </Link>
   </li>
-  <li>
+  {/* <li>
     <Link to="/about/" activeClassName={headerStyles.activeMenuItem}>
       About
     </Link>
-  </li>
+  </li> */}
 </ul>
       </nav>
     </header>
